@@ -1,0 +1,201 @@
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Wed Jan  3 01:18:44 2018
+| Host         : ssd-PC running 64-bit Service Pack 1  (build 7601)
+| Command      : report_control_sets -verbose -file CPU_control_sets_placed.rpt
+| Design       : CPU
+| Device       : xc7a100t
+------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Flip-Flop Distribution
+3. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |   135 |
+| Unused register locations in slices containing registers |   764 |
++----------------------------------------------------------+-------+
+
+
+2. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              91 |           72 |
+| No           | No                    | Yes                    |             144 |          106 |
+| No           | Yes                   | No                     |             102 |           74 |
+| Yes          | No                    | No                     |            4481 |         1509 |
+| Yes          | No                    | Yes                    |             129 |           68 |
+| Yes          | Yes                   | No                     |             121 |           92 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+3. Detailed Control Set Information
+-----------------------------------
+
++-----------------------------+-----------------------------+----------------------------+------------------+----------------+
+|         Clock Signal        |        Enable Signal        |      Set/Reset Signal      | Slice Load Count | Bel Load Count |
++-----------------------------+-----------------------------+----------------------------+------------------+----------------+
+|  ID/EXE_MR_reg[0]_P         |                             | ID/EXE_MR_reg[0]_C         |                1 |              1 |
+|  ID/EXE_MW_reg[0]_P         |                             | ID/EXE_MW_reg[0]_C         |                1 |              1 |
+|  ID/EXE_sw_data_reg[0]_P    |                             | ID/EXE_sw_data_reg[0]_C    |                1 |              1 |
+|  ID/EXE_sw_data_reg[10]_P   |                             | ID/EXE_sw_data_reg[10]_C   |                1 |              1 |
+|  ID/EXE_sw_data_reg[11]_P   |                             | ID/EXE_sw_data_reg[11]_C   |                1 |              1 |
+|  ID/EXE_sw_data_reg[12]_P   |                             | ID/EXE_sw_data_reg[12]_C   |                1 |              1 |
+|  ID/EXE_sw_data_reg[13]_P   |                             | ID/EXE_sw_data_reg[13]_C   |                1 |              1 |
+|  ID/EXE_sw_data_reg[14]_P   |                             | ID/EXE_sw_data_reg[14]_C   |                1 |              1 |
+|  ID/EXE_sw_data_reg[15]_P   |                             | ID/EXE_sw_data_reg[15]_C   |                1 |              1 |
+|  ID/EXE_sw_data_reg[16]_P   |                             | ID/EXE_sw_data_reg[16]_C   |                1 |              1 |
+|  ID/EXE_sw_data_reg[17]_P   |                             | ID/EXE_sw_data_reg[17]_C   |                1 |              1 |
+|  ID/EXE_sw_data_reg[18]_P   |                             | ID/EXE_sw_data_reg[18]_C   |                1 |              1 |
+|  ID/EXE_sw_data_reg[19]_P   |                             | ID/EXE_sw_data_reg[19]_C   |                1 |              1 |
+|  ID/EXE_sw_data_reg[1]_P    |                             | ID/EXE_sw_data_reg[1]_C    |                1 |              1 |
+|  ID/EXE_sw_data_reg[20]_P   |                             | ID/EXE_sw_data_reg[20]_C   |                1 |              1 |
+|  ID/EXE_sw_data_reg[21]_P   |                             | ID/EXE_sw_data_reg[21]_C   |                1 |              1 |
+|  ID/EXE_sw_data_reg[22]_P   |                             | ID/EXE_sw_data_reg[22]_C   |                1 |              1 |
+|  ID/EXE_sw_data_reg[23]_P   |                             | ID/EXE_sw_data_reg[23]_C   |                1 |              1 |
+|  ID/EXE_sw_data_reg[24]_P   |                             | ID/EXE_sw_data_reg[24]_C   |                1 |              1 |
+|  ID/EXE_sw_data_reg[25]_P   |                             | ID/EXE_sw_data_reg[25]_C   |                1 |              1 |
+|  ID/EXE_sw_data_reg[26]_P   |                             | ID/EXE_sw_data_reg[26]_C   |                1 |              1 |
+|  ID/EXE_sw_data_reg[27]_P   |                             | ID/EXE_sw_data_reg[27]_C   |                1 |              1 |
+|  ID/EXE_sw_data_reg[28]_P   |                             | ID/EXE_sw_data_reg[28]_C   |                1 |              1 |
+|  ID/EXE_sw_data_reg[29]_P   |                             | ID/EXE_sw_data_reg[29]_C   |                1 |              1 |
+|  ID/EXE_sw_data_reg[2]_P    |                             | ID/EXE_sw_data_reg[2]_C    |                1 |              1 |
+|  ID/EXE_sw_data_reg[30]_P   |                             | ID/EXE_sw_data_reg[30]_C   |                1 |              1 |
+|  ID/EXE_sw_data_reg[31]_P_0 |                             | ID/EXE_sw_data_reg[31]_C   |                1 |              1 |
+|  ID/EXE_sw_data_reg[3]_P    |                             | ID/EXE_sw_data_reg[3]_C    |                1 |              1 |
+|  ID/EXE_sw_data_reg[4]_P    |                             | ID/EXE_sw_data_reg[4]_C    |                1 |              1 |
+|  ID/EXE_sw_data_reg[5]_P    |                             | ID/EXE_sw_data_reg[5]_C    |                1 |              1 |
+|  ID/EXE_sw_data_reg[6]_P    |                             | ID/EXE_sw_data_reg[6]_C    |                1 |              1 |
+|  ID/EXE_sw_data_reg[7]_P    |                             | ID/EXE_sw_data_reg[7]_C    |                1 |              1 |
+|  ID/EXE_sw_data_reg[8]_P    |                             | ID/EXE_sw_data_reg[8]_C    |                1 |              1 |
+|  ID/EXE_sw_data_reg[9]_P    |                             | ID/EXE_sw_data_reg[9]_C    |                1 |              1 |
+|  clk_IBUF_BUFG              |                             | scan[0]_i_1_n_0            |                1 |              1 |
+|  clk_IBUF_BUFG              | seg_data[4]_i_1_n_0         |                            |                1 |              1 |
+|  clk2_BUFG                  |                             | ID/EXE_MR_reg[0]_C         |                1 |              1 |
+|  clk2_BUFG                  |                             | ID/EXE_MR_reg[0]_P         |                1 |              1 |
+|  clk2_BUFG                  |                             | ID/EXE_MW_reg[0]_C         |                1 |              1 |
+|  clk2_BUFG                  |                             | ID/EXE_MW_reg[0]_P         |                1 |              1 |
+|  clk2_BUFG                  |                             | ID/EXE_sw_data_reg[0]_C    |                1 |              1 |
+|  clk2_BUFG                  |                             | ID/EXE_sw_data_reg[0]_P    |                1 |              1 |
+|  clk2_BUFG                  |                             | ID/EXE_sw_data_reg[10]_C   |                1 |              1 |
+|  clk2_BUFG                  |                             | ID/EXE_sw_data_reg[10]_P   |                1 |              1 |
+|  clk2_BUFG                  |                             | ID/EXE_sw_data_reg[11]_C   |                1 |              1 |
+|  clk2_BUFG                  |                             | ID/EXE_sw_data_reg[11]_P   |                1 |              1 |
+|  clk2_BUFG                  |                             | ID/EXE_sw_data_reg[12]_C   |                1 |              1 |
+|  clk2_BUFG                  |                             | ID/EXE_sw_data_reg[12]_P   |                1 |              1 |
+|  clk2_BUFG                  |                             | ID/EXE_sw_data_reg[13]_C   |                1 |              1 |
+|  clk2_BUFG                  |                             | ID/EXE_sw_data_reg[13]_P   |                1 |              1 |
+|  clk2_BUFG                  |                             | ID/EXE_sw_data_reg[14]_C   |                1 |              1 |
+|  clk2_BUFG                  |                             | ID/EXE_sw_data_reg[14]_P   |                1 |              1 |
+|  clk2_BUFG                  |                             | ID/EXE_sw_data_reg[15]_C   |                1 |              1 |
+|  clk2_BUFG                  |                             | ID/EXE_sw_data_reg[15]_P   |                1 |              1 |
+|  clk2_BUFG                  |                             | ID/EXE_sw_data_reg[16]_C   |                1 |              1 |
+|  clk2_BUFG                  |                             | ID/EXE_sw_data_reg[16]_P   |                1 |              1 |
+|  clk2_BUFG                  |                             | ID/EXE_sw_data_reg[17]_C   |                1 |              1 |
+|  clk2_BUFG                  |                             | ID/EXE_sw_data_reg[17]_P   |                1 |              1 |
+|  clk2_BUFG                  |                             | ID/EXE_sw_data_reg[18]_C   |                1 |              1 |
+|  clk2_BUFG                  |                             | ID/EXE_sw_data_reg[18]_P   |                1 |              1 |
+|  clk2_BUFG                  |                             | ID/EXE_sw_data_reg[19]_C   |                1 |              1 |
+|  clk2_BUFG                  |                             | ID/EXE_sw_data_reg[19]_P   |                1 |              1 |
+|  clk2_BUFG                  |                             | ID/EXE_sw_data_reg[1]_C    |                1 |              1 |
+|  clk2_BUFG                  |                             | ID/EXE_sw_data_reg[1]_P    |                1 |              1 |
+|  clk2_BUFG                  |                             | ID/EXE_sw_data_reg[20]_C   |                1 |              1 |
+|  clk2_BUFG                  |                             | ID/EXE_sw_data_reg[20]_P   |                1 |              1 |
+|  clk2_BUFG                  |                             | ID/EXE_sw_data_reg[21]_C   |                1 |              1 |
+|  clk2_BUFG                  |                             | ID/EXE_sw_data_reg[21]_P   |                1 |              1 |
+|  clk2_BUFG                  |                             | ID/EXE_sw_data_reg[22]_C   |                1 |              1 |
+|  clk2_BUFG                  |                             | ID/EXE_sw_data_reg[22]_P   |                1 |              1 |
+|  clk2_BUFG                  |                             | ID/EXE_sw_data_reg[23]_C   |                1 |              1 |
+|  clk2_BUFG                  |                             | ID/EXE_sw_data_reg[23]_P   |                1 |              1 |
+|  clk2_BUFG                  |                             | ID/EXE_sw_data_reg[24]_C   |                1 |              1 |
+|  clk2_BUFG                  |                             | ID/EXE_sw_data_reg[24]_P   |                1 |              1 |
+|  clk2_BUFG                  |                             | ID/EXE_sw_data_reg[25]_C   |                1 |              1 |
+|  clk2_BUFG                  |                             | ID/EXE_sw_data_reg[25]_P   |                1 |              1 |
+|  clk2_BUFG                  |                             | ID/EXE_sw_data_reg[26]_C   |                1 |              1 |
+|  clk2_BUFG                  |                             | ID/EXE_sw_data_reg[26]_P   |                1 |              1 |
+|  clk2_BUFG                  |                             | ID/EXE_sw_data_reg[27]_C   |                1 |              1 |
+|  clk2_BUFG                  |                             | ID/EXE_sw_data_reg[27]_P   |                1 |              1 |
+|  clk2_BUFG                  |                             | ID/EXE_sw_data_reg[28]_C   |                1 |              1 |
+|  clk2_BUFG                  |                             | ID/EXE_sw_data_reg[28]_P   |                1 |              1 |
+|  clk2_BUFG                  |                             | ID/EXE_sw_data_reg[29]_C   |                1 |              1 |
+|  clk2_BUFG                  |                             | ID/EXE_sw_data_reg[29]_P   |                1 |              1 |
+|  clk2_BUFG                  |                             | ID/EXE_sw_data_reg[2]_C    |                1 |              1 |
+|  clk2_BUFG                  |                             | ID/EXE_sw_data_reg[2]_P    |                1 |              1 |
+|  clk2_BUFG                  |                             | ID/EXE_sw_data_reg[30]_C   |                1 |              1 |
+|  clk2_BUFG                  |                             | ID/EXE_sw_data_reg[30]_P   |                1 |              1 |
+|  clk2_BUFG                  |                             | ID/EXE_sw_data_reg[31]_C   |                1 |              1 |
+|  clk2_BUFG                  |                             | ID/EXE_sw_data_reg[31]_P_0 |                1 |              1 |
+|  clk2_BUFG                  |                             | ID/EXE_sw_data_reg[3]_C    |                1 |              1 |
+|  clk2_BUFG                  |                             | ID/EXE_sw_data_reg[3]_P    |                1 |              1 |
+|  clk2_BUFG                  |                             | ID/EXE_sw_data_reg[4]_C    |                1 |              1 |
+|  clk2_BUFG                  |                             | ID/EXE_sw_data_reg[4]_P    |                1 |              1 |
+|  clk2_BUFG                  |                             | ID/EXE_sw_data_reg[5]_C    |                1 |              1 |
+|  clk2_BUFG                  |                             | ID/EXE_sw_data_reg[5]_P    |                1 |              1 |
+|  clk2_BUFG                  |                             | ID/EXE_sw_data_reg[6]_C    |                1 |              1 |
+|  clk2_BUFG                  |                             | ID/EXE_sw_data_reg[6]_P    |                1 |              1 |
+|  clk2_BUFG                  |                             | ID/EXE_sw_data_reg[7]_C    |                1 |              1 |
+|  clk2_BUFG                  |                             | ID/EXE_sw_data_reg[7]_P    |                1 |              1 |
+|  clk2_BUFG                  |                             | ID/EXE_sw_data_reg[8]_C    |                1 |              1 |
+|  clk2_BUFG                  |                             | ID/EXE_sw_data_reg[8]_P    |                1 |              1 |
+|  clk2_BUFG                  |                             | ID/EXE_sw_data_reg[9]_C    |                1 |              1 |
+|  clk2_BUFG                  |                             | ID/EXE_sw_data_reg[9]_P    |                1 |              1 |
+|  clk_IBUF_BUFG              |                             | state[1]                   |                3 |              4 |
+|  clk2_BUFG                  | IF/RD_reg[4][0]             | rst_IBUF                   |                3 |              5 |
+|  clk_IBUF_BUFG              | seg_data[4]_i_1_n_0         | seg_data[6]_i_1_n_0        |                1 |              6 |
+|  clk2_BUFG                  | IF/ID_branch_PC_reg[8]_0[0] | rst_IBUF                   |                5 |              8 |
+|  clk_IBUF_BUFG              |                             | clear                      |                3 |              8 |
+|  clk2_BUFG                  |                             |                            |               11 |             13 |
+|  clk_IBUF_BUFG              |                             | counter[0]_i_1_n_0         |                5 |             18 |
+|  clk2_BUFG                  | EXE/DM_reg[0][31]_0         | rst_IBUF                   |               12 |             19 |
+|  clk2_BUFG                  |                             | EXE/SR[0]                  |               26 |             32 |
+|  clk2_BUFG                  | IF/ID_sw_data_reg[31][0]    | rst_IBUF                   |               17 |             32 |
+|  clk2_BUFG                  | MEM/E[0]                    | rst_IBUF                   |               25 |             32 |
+|  clk2_BUFG                  | MEM/REG_reg[0][31][0]       | rst_IBUF                   |               28 |             32 |
+|  clk2_BUFG                  | MEM/REG_reg[10][31][0]      |                            |               30 |             32 |
+|  clk2_BUFG                  | MEM/REG_reg[11][31][0]      |                            |               29 |             32 |
+|  clk2_BUFG                  | MEM/REG_reg[12][31][0]      |                            |               25 |             32 |
+|  clk2_BUFG                  | MEM/REG_reg[13][31][0]      |                            |               29 |             32 |
+|  clk2_BUFG                  | MEM/REG_reg[15][31][0]      |                            |               25 |             32 |
+|  clk2_BUFG                  | MEM/REG_reg[2][31][0]       | rst_IBUF                   |               26 |             32 |
+|  clk2_BUFG                  | MEM/REG_reg[3][31][0]       |                            |               27 |             32 |
+|  clk2_BUFG                  | MEM/REG_reg[4][31][0]       |                            |               27 |             32 |
+|  clk2_BUFG                  | MEM/REG_reg[5][31][0]       |                            |               26 |             32 |
+|  clk2_BUFG                  | MEM/REG_reg[6][31][0]       |                            |               25 |             32 |
+|  clk2_BUFG                  | MEM/REG_reg[7][31][0]       |                            |               28 |             32 |
+|  clk2_BUFG                  | MEM/REG_reg[8][31][0]       |                            |               24 |             32 |
+|  clk2_BUFG                  | MEM/REG_reg[9][31][0]       |                            |               22 |             32 |
+|  clk2_BUFG                  | IF/B_reg[31][0]             | rst_IBUF                   |                9 |             32 |
+|  clk2_BUFG                  | MEM/REG_reg[14][31][0]      |                            |               27 |             32 |
+|  clk2_BUFG                  | ID/ALUout_reg[31]_2         | rst_IBUF                   |               34 |             52 |
+|  clk_IBUF_BUFG              |                             |                            |               61 |             78 |
+|  clk2_BUFG                  |                             | rst_IBUF                   |               40 |             81 |
+|  clk2_BUFG                  | MEM/DM[1][31]_i_1_n_0       |                            |             1164 |           4064 |
++-----------------------------+-----------------------------+----------------------------+------------------+----------------+
+
+
++--------+-----------------------+
+| Fanout | Number of ControlSets |
++--------+-----------------------+
+| 1      |                   104 |
+| 4      |                     1 |
+| 5      |                     1 |
+| 6      |                     1 |
+| 8      |                     2 |
+| 13     |                     1 |
+| 16+    |                    25 |
++--------+-----------------------+
+
+
